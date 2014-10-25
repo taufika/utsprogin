@@ -8,11 +8,11 @@
 #Use
 Crawler.py has two parameters. The first parameter is mode, the second parameter is the input.
 ##Available Modes
-- -crawl `<url>` To crawl the web starting from given url
-- -search `<term>` To search term in the indexed result, will give the url of where it found your keyword
+- `-crawl <url>` To crawl the web starting from given url
+- `-search <term>` To search term in the indexed result, will give the url of where it found your keyword
 
 ```
-###Example:
+Example:
 > $ python crawler.py -crawl http://www.github.com
 > $ python crawler.py -search repository
 ```
